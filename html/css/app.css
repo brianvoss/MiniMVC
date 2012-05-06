@@ -1,0 +1,70 @@
+/**
+ * Facebook Platform Coding Challenge Application
+ * for Kixeye
+ *
+ * Main Application Stylesheet
+ * @author Brian Voss <brian@brianvoss.com>
+ */
+/* Reset */
+html, body, div, span, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: Arial, Verdana, sans-serif;
+	vertical-align: baseline;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+}
+
+#header {
+    display: block;
+    height: 110px;
+    width: 100%;
+    border-bottom: 1px solid #333;
+}
+
+#content {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1000;
+    background-color: #000;
+    border-bottom: 1px solid #eee;
+    text-align:center;
+}
+
+#content h1 {
+    color: #fff;
+}
+
+#footer {
+    width: 100%;
+    padding: 5px;
+    font-size: 13px;
+    color: #fff;
+}
+
+#footer div {
+    float: left;
+    margin-right: 10px;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
